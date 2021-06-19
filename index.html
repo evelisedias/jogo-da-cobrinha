@@ -5,13 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    
     <script defer src="/js/script.js"></script>
     <title>Snake Game</title>
 </head>
 <body>
-    <h1>The Life Snake Game!</h1>
-    <canvas id="snake" width="500" height="500"></canvas>
+    <h1 class="title">The Life Snake Game!</h1>
+
+    <canvas id="snake" width="500" height="400"  ></canvas>
 
 
+
+    <div class="botao">
+   <button class="triangulo"onclick="clicar" type="button"> <img src="/img/triangulo.png" alt="" width="25" > </button>
+   <button class="X"onclick="clicar" type="button"> <img src="/img/x.png" alt="" width="25" > </button>
+   <button class="quadrado" onclick="clicar" type="button"> <img src="/img/quadrado.png" alt="" width="25" > </button>
+   <button class="bolinha" onclick="clicar" type="button"> <img src="/img/O.png" alt="" width="25" > </button>
+    
+
+        <button class="up"onclick="up" type="button"> <img src="/img/up.png" alt="" width="25" > </button>
+        <button class="down"onclick="down" type="button"> <img src="/img/down.png" alt="" width="25" > </button>
+        <button class="right" onclick="right" type="button"> <img src="/img/right.png" alt="" width="25" > </button>
+        <button class="left" onclick="left" type="button"> <img src="/img/esquerda.png" alt="" width="25" > </button>
+         </div>
+     
+
+
+
+<script src="https://kit.fontawesome.com/90dc8c0810.js" crossorigin="anonymous"></script>
 </body>
 </html>

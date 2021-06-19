@@ -1,10 +1,88 @@
 body{
-    
-    height: 95vh;
-    width: 95vh;
     display: flex;
     justify-content: center;
     align-items:  center;
     flex-direction: column;
-    
+    background-color: rgb(46, 44, 41);
+  
+}
+  #snake{
+      align-items: center;
+      border: solid white 3px;
+      padding: 1rem;
+      padding-bottom: 5rem;
+  }
+
+  .title{
+      color: white;
+      text-align: center;
+  }
+
+ .botao{
+     color: yellow;
+     margin-top: 3rem;
+     align-items: center;
+     width: 20%;
+
+ }
+
+ .container
+ {
+     margin-top: 5rem;
+     margin-right: 1px;
+ }
+.triangulo{
+    position:absolute; 
+    top: 70%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+
+.bolinha{
+    position:absolute; 
+    top: 75%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.X{
+    position:absolute; 
+    top: 79.8%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+
+.quadrado{
+    position:absolute; 
+    top: 75%;
+    left: 59.1%;
+    transform: translate(-50%, -50%);
+}
+
+.up{
+    position:absolute; 
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.right{
+    position:absolute; 
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+.down{
+    position:absolute; 
+    top: 79.8%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.left{
+    position:absolute; 
+    top: 75%;
+    left: 38%;
+    transform: translate(-50%, -50%);
 }
